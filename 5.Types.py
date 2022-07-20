@@ -56,47 +56,49 @@ print(type(e)) ##<class 'NoneType'>
 
 
 
-# a=10                #assigned variable
-# temp=(type(a))      #Assignment Operators
+a=10                #assigned variable
+temp=(type(a))      #Assignment Operators
 
-# print(type(a))
-# print (temp)
+print(type(a))
+print (temp)
 
 
-# a = 10      # integer 
-# a2 = -20    # integer
+a = 10      # integer 
+a2 = -20    # integer
 
-# temp_1 =type(a)
-# print(temp_1)
+temp_1 =type(a)
+print(temp_1)
 
-# print(type(a2))
+print(type(a2))
 
-# b = 16.8    # float type
-# b2 = 3.65   # float type
+b = 16.8    # float type
+b2 = 3.65   # float type
 
-# temp_2=type(b)
-# print(temp_2)  #<class 'float'>
-# print(type(b2)) #<class 'float'>
+temp_2=type(b)
+print(temp_2)  #<class 'float'>
+print(type(b2)) #<class 'float'>
 
-# c = "Hello"     # string type
-# c2 = 'something' # string
+c = "Hello"     # string type
+c2 = 'something' # string
 
-# # c3 = '''CT10'''  #string
-# # c4= """sdkjfla
-# #     asdfadsf
-# #     dsfa"""  # string
-# # c5 = "10"
+c3 = '''CT10'''  #string
 
-# temp_3= type(c) 
-# print(temp_3)   #<class 'str'> 
+c4= """sdkjfla
+    asdfadsf
+    dsfa"""  # Multi string
 
-# print(type(c2)) #<class 'str'>
+c5 = "10"
 
-# d = True    # boolean only True or False
-# d2 = False  # boolean only True or False
+temp_3= type(c) 
+print(temp_3)   #<class 'str'> 
 
-# temp_4 = type(d)
-# print(temp_4)   #<class 'bool'>
+print(type(c2)) #<class 'str'>
 
-# print(type(d2)) #<class 'bool'>
+d = True    # boolean only True or False
+d2 = False  # boolean only True or False
+
+temp_4 = type(d)
+print(temp_4)   #<class 'bool'>
+
+print(type(d2)) #<class 'bool'>
 
