@@ -13,21 +13,21 @@ def show_menu():
 while user_input != '4':
 
     show_menu() 
-    user_input = input('Enter your choice: ')
+    user_input = input('Enter your choice=> ')
 
     if user_input == '1':
-        item = input('What is to be done?')
+        item = input('What is to be done? ')
         data.append(item)
         print('Added item,',item)
     elif user_input == '2':
-        item = input('What is to be marked as done')
+        item = input('What is to be marked as done=> ')
         if item in data:
             data.remove(item)
             print('Remove item:', item)
         else:
-            print('Item does not exist in the list')
+            print('Item does not exist in the list.')
     elif user_input == '3':
-        print('List of to-do items:')
+        print('List of to-do items =>')
         for item in data:
             print(item) 
     elif user_input == '4':
